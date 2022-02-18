@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+    <title>Favorite</title>
+  </head>
+  <body>
+    <!-- NOTIFICATION -->
+    <div class="container flex justify-end mb-6">
+      <span class="text-lg mt-3 sm:text-2xl sm:mt-8"><i class="bi bi-search"></i></span>
+      <span class="text-lg mx-7 mt-3 sm:text-2xl sm:mt-8"><i class="bi bi-bell"></i></span>
+    </div>
+    <!-- NOTIFICATION -->
+
+    <!-- CATEGORY -->
+    <div class="container flex justify-between w-11/12 mx-auto mt-4">
+      <p class="font-bold text-slate-600 ml-2 sm:text-2xl">Favorite</p>
+      <a href="#" class="text-slate-500 mr-2 sm:text-2xl">view all</a>
+    </div>
+
+    <!-- END CATEGORY -->
+    <div class="container flex justify-evenly mt-6">
+      <div class="content bg-slate-50 shadow-lg w-36 h-56 rounded-xl mt-2 relative sm:w-80 sm:h-auto">
+        <span class="absolute right-3 top-3 text-xs text-red-500 sm:top-8 sm:right-8 sm:text-xl"><i class="bi bi-heart-fill"></i></span>
+        <img src="./img/2.jpg" alt="meo" class="w-32 h-32 mx-auto mt-2 rounded-xl sm:w-72 sm:mt-5 sm:h-56" />
+        <p class="font-bold text-sm from-neutral-800 ml-2 mt-2 sm:ml-5 sm:mt-4 sm:text-xl">Gerry</p>
+        <p class="text-sm text-gray-400 ml-2 sm:text-lg sm:ml-5 sm:mb-2 sm:mt-2">Persia</p>
+        <button class="ml-2 mb-2 bg-slate-300 text-[10px] font-bold px-4 py-0.5 rounded-full text-cyan-600 sm:px-8 sm:py-2 sm:ml-5 sm:mb-4 sm:text-sm">01 YRS</button>
+      </div>
+
+      <div class="content bg-slate-50 shadow-lg w-36 h-56 rounded-xl mt-2 relative sm:w-80 sm:h-auto">
+        <span class="absolute right-3 top-3 text-xs text-red-500 sm:top-8 sm:right-8 sm:text-xl"><i class="bi bi-heart-fill"></i></span>
+        <img src="./img/5.jpg" alt="meo" class="w-32 h-32 mx-auto mt-2 rounded-xl sm:w-72 sm:mt-5 sm:h-56" />
+        <p class="font-bold text-sm from-neutral-800 ml-2 mt-2 sm:ml-5 sm:mt-4 sm:text-xl">Shaka</p>
+        <p class="text-sm text-gray-400 ml-2 sm:text-lg sm:ml-5 sm:mb-2 sm:mt-2">Pitbul</p>
+        <button class="ml-2 mb-2 bg-slate-300 text-[10px] font-bold px-4 py-0.5 rounded-full text-cyan-600 sm:px-8 sm:py-2 sm:ml-5 sm:mb-4 sm:text-sm">01 YRS</button>
+      </div>
+    </div>
+    <!-- CARD -->
+
+    <!-- END CATEGORY -->
+    <div class="container flex justify-evenly mt-4">
+      <div class="content bg-slate-50 shadow-lg w-36 h-56 rounded-xl mt-2 relative sm:w-80 sm:h-auto">
+        <span class="absolute right-3 top-3 text-xs text-red-500 sm:top-8 sm:right-8 sm:text-xl"><i class="bi bi-heart-fill"></i></span>
+        <img src="./img/2.jpg" alt="meo" class="w-32 h-32 mx-auto mt-2 rounded-xl sm:w-72 sm:mt-5 sm:h-56" />
+        <p class="font-bold text-sm from-neutral-800 ml-2 mt-2 sm:ml-5 sm:mt-4 sm:text-xl">Gerry</p>
+        <p class="text-sm text-gray-400 ml-2 sm:text-lg sm:ml-5 sm:mb-2 sm:mt-2">Persia</p>
+        <button class="ml-2 mb-2 bg-slate-300 text-[10px] font-bold px-4 py-0.5 rounded-full text-cyan-600 sm:px-8 sm:py-2 sm:ml-5 sm:mb-4 sm:text-sm">01 YRS</button>
+      </div>
+
+      <div class="content bg-slate-50 shadow-lg w-36 h-56 rounded-xl mt-2 relative sm:w-80 sm:h-auto">
+        <span class="absolute right-3 top-3 text-xs text-red-500 sm:top-8 sm:right-8 sm:text-xl"><i class="bi bi-heart-fill"></i></span>
+        <img src="./img/5.jpg" alt="meo" class="w-32 h-32 mx-auto mt-2 rounded-xl sm:w-72 sm:mt-5 sm:h-56" />
+        <p class="font-bold text-sm from-neutral-800 ml-2 mt-2 sm:ml-5 sm:mt-4 sm:text-xl">Shaka</p>
+        <p class="text-sm text-gray-400 ml-2 sm:text-lg sm:ml-5 sm:mb-2 sm:mt-2">Pitbul</p>
+        <button class="ml-2 mb-2 bg-slate-300 text-[10px] font-bold px-4 py-0.5 rounded-full text-cyan-600 sm:px-8 sm:py-2 sm:ml-5 sm:mb-4 sm:text-sm">01 YRS</button>
+      </div>
+    </div>
+    <!-- CARD -->
+
+    <!-- NAVBAR -->
+    <nav class="fixed bottom-0 w-screen h-14 border-t-2 pt-1 sm:h-24 sm:pt-5 backdrop-blur-sm">
+      <ul class="flex justify-evenly my-auto">
+        <button class="flex justify-center items-center text-2xl w-10 h-10 sm:w-14 sm:h-14 focus:ring focus:ring-white focus:text-white focus:bg-cyan-500 focus:rounded-full">
+          <a href="index.html" class="sm:text-3xl"><i class="bi bi-house"></i></a>
+        </button>
+        <button class="flex justify-center items-center text-2xl w-10 h-10 sm:w-14 sm:h-14 focus:ring focus:ring-white focus:text-white focus:bg-cyan-500 focus:rounded-full">
+          <a href="./favorite.html" class="sm:text-3xl"><i class="bi bi-heart"></i></a>
+        </button>
+        <button class="flex justify-center items-center text-2xl w-10 h-10 sm:w-14 sm:h-14 focus:ring focus:ring-white focus:text-white focus:bg-cyan-500 focus:rounded-full">
+          <a href="#" class="sm:text-3xl"><i class="bi bi-cart"></i></a>
+        </button>
+        <button class="flex justify-center items-center text-2xl w-10 h-10 sm:w-14 sm:h-14 focus:ring focus:ring-white focus:text-white focus:bg-cyan-500 focus:rounded-full">
+          <a href="#" class="sm:text-3xl"><i class="bi bi-person"></i></a>
+        </button>
+      </ul>
+    </nav>
+    <!-- END NAVBAR -->
+  </body>
+</html>
